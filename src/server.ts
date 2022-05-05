@@ -1,10 +1,24 @@
 import express from 'express'
+import { prisma } from './prisma';
 
 const app = express()
 const port = 3333;
 
-app.get('/',(req,res) => {
-  res.send('Root')
+app.use(express.json())
+
+app.post('/feedbacks', async (req,res) => {
+  const { type, comment, screenshot } = req.body;
+
+  const feedback = await prisma.feedback.create({
+    data: {
+      type,
+      comment,
+      screenshot,
+    }
+  })
+
+
+  res.status(201).json({data: feedback })
 })
 
 app.listen(port, () => {

@@ -4,7 +4,7 @@ const app = express()
 const port = 3333;
 
 app.get('/',(req,res) => {
-  res.send('Pagina Root')
+  res.send('Root')
 })
 
 app.listen(port, () => {

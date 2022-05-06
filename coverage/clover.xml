@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651807817962" clover="3.2.0">
-  <project timestamp="1651807817962" name="All files">
+<coverage generated="1651808291334" clover="3.2.0">
+  <project timestamp="1651808291334" name="All files">
     <metrics statements="49" coveredstatements="49" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2" elements="58" coveredelements="58" complexity="0" loc="49" ncloc="49" packages="1" files="1" classes="1"/>
     <file name="submitFeedbackUseCase.ts" path="E:\Maratonas\FeedbackWidgetServer\src\use-cases\submitFeedbackUseCase.ts">
       <metrics statements="49" coveredstatements="49" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>

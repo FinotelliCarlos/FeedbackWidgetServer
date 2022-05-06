@@ -16,7 +16,7 @@ export class NodemailerMailAdapter implements MailAdapter {
       from: 'Equipe Feedback <feedback.widget@feedback.com>',
       to: 'Carlos Finotelli <carlos.finotelli@outlook.com>',
       subject,
-      html: body,
+      html: body
     })
   }
 }

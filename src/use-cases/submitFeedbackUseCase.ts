@@ -41,7 +41,7 @@ export class SubmitFeedbackUseCase {
         `<h2>Novo Feedback: ${type}</h2>`,
         `<p>Tipo: ${type}</p>`,
         `<p>Cometario: ${comment}</p>`,
-        `<p>Screenshot: ${screenshot}</p>`,
+         screenshot ? `<img src="${screenshot}"></img>` : '',
         `</div>`
       ].join('\n')
     })
